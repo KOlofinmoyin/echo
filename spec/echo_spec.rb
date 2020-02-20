@@ -9,4 +9,8 @@ describe '#echo' do
   it "asks user to say something and returns 'You said: {user_input}'" do
     expect(echo).to eq "You said: hello, world"
   end
+
+  it "returns a dated timestamp" do
+    expect(echo).to include "#{date} | #{time}"
+  end
 end
