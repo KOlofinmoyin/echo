@@ -28,7 +28,7 @@ Goodbye!
 
 INPUT      |   output
 =====================
-Say something -> Say something
-Say something: hello, world -> "hello, world"
-Say something: hello, world -> You said: "hello, world"
+
+(passed)Say something: hello, world -> "hello, world"
+(passed) Say something: hello, world -> You said: "hello, world"
 Say something: hello, world -> You said: "hello, world" -> 2018-01-09 | 16:26 | You said: 'hello, world'!

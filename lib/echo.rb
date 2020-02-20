@@ -1,4 +1,6 @@
 
 def echo
-  "Say something:"
+   puts "Say something:"
+   user_input = gets.chomp
+   "You said: #{user_input}"
 end
